@@ -1,0 +1,284 @@
+.nav .nav-link-name::before {
+border-bottom: none;
+}
+
+.navbar-dark .navbar-nav .nav-link.active {
+  color: #000 !important;
+}
+
+.navbar-shape{
+  opacity: 1%;
+  margin: 20px;
+}
+
+.card-sub{
+  margin-top: 10px;
+  margin-bottom: 1.666665rem;
+  color:white;
+}
+
+.card-sub-small{
+  margin-top: 10px;
+  margin-bottom: 1.5rem;
+  color:white;
+}
+
+@media (max-width: 12000px){
+  .card-sub{
+    margin-top: 10px;
+    font-size: 1rem !important;
+  }
+  .card-sub-small{
+    margin-top: 10px;
+    font-size: 0.9rem !important;
+  }
+}
+
+ /* Hide scrollbar for Chrome, Safari and Opera */
+.scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.card-img2{
+    /* Start the shake animation and make the animation last for 0.5 seconds */
+  animation: shake 0.02s;
+
+  /* When the animation is finished, start again */
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -1px) rotate(-0.1deg); }
+  20% { transform: translate(-1px, 0px) rotate(0.1deg); }
+  30% { transform: translate(1px, 1px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(0.1deg); }
+  50% { transform: translate(-1px, 1px) rotate(-0.1deg); }
+  60% { transform: translate(-1px, 1px) rotate(0deg); }
+  70% { transform: translate(1px, 1px) rotate(-0.1deg); }
+  80% { transform: translate(-1px, -1px) rotate(0.1deg); }
+  90% { transform: translate(1px, 1px) rotate(0deg); }
+  100% { transform: translate(1px, -1px) rotate(-0.1deg); }
+}
+
+.bg-image {
+  background-image: url('/assets/images/internal/bg-mint.png');
+  background-color: #2fb1e7;
+}
+
+.bg-image-event-001 {
+  background-image: url('/assets/images/events/trtactics.png');
+}
+
+.bg-image-event-001::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-color: rgba(0,0,0,0.5);
+}
+
+.bg-image-release-001 {
+  background-image: url('/assets/images/releases/zulito-broken-wings.png');
+}
+
+.bg-image-event-001::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-color: rgba(0,0,0,0.5);
+}
+
+.navbar-top.navbar-dark::before{
+  background-color: #2fb1e7 !important;
+}
+
+.fw-bold {
+    font-weight: 700;
+}
+
+.gallery-item{
+  border-radius: 5px;
+}
+
+.btn-light-outline {
+    color: #fff;
+    border-color: #fff;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.btn-light-outline:hover {
+    color: #fff;
+    border-color: #fff;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.h2-2 {
+    margin-bottom: 0.9166666667em;
+    font-size: 2em !important;
+    line-height: 1.2;
+}
+
+a{
+  color: #fff !important;
+  font-weight: 700;
+}
+
+.interactive-links-image{
+  width: 50%;
+}
+
+.isotope-options::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 15px;
+  left: 15px;
+  border-top: 1px solid currentColor;
+}
+
+
+.mouse_scroll {
+	display: block;
+	margin: 0 auto 0 40%;
+	width: 24px;
+	height: 90px;
+  position: fixed;
+  bottom: 0;
+}
+
+
+.m_scroll_arrows
+{
+  display: block;
+  width: 5px;
+  height: 5px;
+  -ms-transform: rotate(45deg); /* IE 9 */
+  -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+  transform: rotate(45deg);
+
+  border-right: 2px solid white;
+  border-bottom: 2px solid white;
+  margin: 0 0 3px 4px;
+
+  width: 16px;
+  height: 16px;
+}
+
+
+.unu
+{
+  margin-top: 1px;
+}
+
+.unu, .doi, .trei
+{
+    -webkit-animation: mouse-scroll 1s infinite;
+    -moz-animation: mouse-scroll 1s infinite;
+    animation: mouse-scroll 1s infinite;
+
+}
+
+.unu
+{
+  -webkit-animation-delay: .1s;
+  -moz-animation-delay: .1s;
+  -webkit-animation-direction: alternate;
+
+  animation-direction: alternate;
+  animation-delay: alternate;
+}
+
+.doi
+{
+  -webkit-animation-delay: .2s;
+  -moz-animation-delay: .2s;
+  -webkit-animation-direction: alternate;
+
+  animation-delay: .2s;
+  animation-direction: alternate;
+
+  margin-top: -6px;
+}
+
+.trei
+{
+  -webkit-animation-delay: .3s;
+  -moz-animation-delay: .3s;
+  -webkit-animation-direction: alternate;
+
+  animation-delay: .3s;
+  animation-direction: alternate;
+
+
+  margin-top: -6px;
+}
+
+
+@-webkit-keyframes mouse-scroll {
+
+  0%   { opacity: 0;}
+  50%  { opacity: .5;}
+  100% { opacity: 1;}
+}
+@-moz-keyframes mouse-scroll {
+
+  0%   { opacity: 0; }
+  50%  { opacity: .5; }
+  100% { opacity: 1; }
+}
+@-o-keyframes mouse-scroll {
+
+  0%   { opacity: 0; }
+  50%  { opacity: .5; }
+  100% { opacity: 1; }
+}
+@keyframes mouse-scroll {
+
+  0%   { opacity: 0; }
+  50%  { opacity: .5; }
+  100% { opacity: 1; }
+}
+
+.make-bold{
+  font-weight: bold !important;
+  margin-top: 25px;
+  font-size: 1.2rem !important;
+}
+
+.img-about{
+  margin-top: 10px;
+  margin-bottom: 5px;
+  margin-right: 10px;
+}
+
+.partners{
+  border-bottom: 1px solid;
+  padding: 2px;
+}
+
+
+@media (max-width: 576px){
+  .hidden-small{
+    display:none;
+  }
+}
+
+@media (min-width: 576px){
+  .pad-10{
+  margin-left: 10px;
+}
+}
