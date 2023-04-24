@@ -721,7 +721,7 @@ progress {
 @media (min-width: 620px) {
     .container,
     .container-sm {
-        max-width: 540px;
+        max-width: 580px;
     }
 }
 @media (min-width: 828px) {
@@ -748,6 +748,7 @@ progress {
         max-width: 1170px;
     }
 }
+
 .row {
     --bs-gutter-x: 0;
     --bs-gutter-y: 0;
@@ -22551,8 +22552,8 @@ fieldset:disabled .btn {
     .container-md,
     .container-sm,
     .container-xl {
-        padding-right: 40px;
-        padding-left: 40px;
+        padding-right: 30px;
+        padding-left: 30px;
     }
 }
 .btn {
@@ -23845,16 +23846,16 @@ a.card-blog {
 }
 .card-fullscreen .card-title {
     position: relative;
-    padding-right: 100px;
+    padding-right: 50px;
 }
 @media (min-width: 828px) {
     .card-fullscreen .card-title {
-        padding-left: 200px;
+        padding-left: 100px;
     }
 }
 @media (max-width: 828px) {
     .card-fullscreen .card-title {
-        font-size: 2.5em;
+        font-size: 2em;
     }
 }
 .card-fullscreen .card-title-decoration {
@@ -23879,7 +23880,7 @@ a.card-blog {
 }
 .card-fullscreen .btn {
     position: absolute;
-    bottom: 50px;
+    bottom: 56px;
 }
 @media (min-width: 828px) {
     .card-fullscreen .btn {
@@ -24923,7 +24924,7 @@ h6 u {
 .h1,
 h1 {
     margin-bottom: 0.7428571429em;
-    font-size: 4.375em;
+    font-size: 3.5em;
     line-height: 1.2;
 }
 @media (max-width: 619.98px) {
